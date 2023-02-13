@@ -33,9 +33,8 @@ public static void main(String[] args) {
     System.out.println("Total Players: " + numPlayers);
     System.out.println("Tallest Player: " + tallestPlayer);
     System.out.println("The height total is: " + heightTotal);
-    double d = numPlayers;
-    double average = heightTotal / d;
-    System.out.println(average);
+    double average = heightTotal / numPlayers;
+    System.out.println("The teams average height is: " + average);
 
 
 
